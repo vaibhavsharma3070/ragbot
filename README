@@ -1,0 +1,32 @@
+# RAG Chatbot with Pinecone and GPT-4
+
+This project implements a Retrieval-Augmented Generation (RAG) chatbot using Pinecone as a vector database and OpenAI's GPT-4 for response generation.
+
+## Features
+
+- PDF document ingestion and embedding storage in Pinecone
+- Efficient retrieval of relevant passages for user queries
+- GPT-4 powered response generation
+- Handling of multiple document uploads
+- Fallback mechanism for unanswerable queries
+- Streaming responses for quick initial output
+
+## Tools and Libraries
+
+- Python 3.8+
+- Pinecone for vector storage
+- LangChain for document processing and chatbot implementation
+- OpenAI's GPT-4 for language modeling
+- PyPDF2 for PDF parsing
+
+## Limitations and Assumptions
+
+- Assumes the availability of Pinecone and OpenAI API keys
+- PDF documents are assumed to be text-based and readable
+- Response quality depends on the accuracy of document ingestion and retrieval
+
+## Future Improvements
+
+- Implement more robust error handling and input validation
+- Optimize embedding and retrieval processes for larger document sets
+- Enhance the user interface for a more interactive experience
